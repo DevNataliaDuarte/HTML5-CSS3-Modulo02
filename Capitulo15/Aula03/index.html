@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOVER</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            align-items: center;
+            display: inline-block;
+            background-color: grey;
+        }
+
+        #h00ver{
+            display: flex;
+            
+            align-items: center;
+        }
+        div > img {
+            display: none;
+        }
+        div:hover > img{
+            display: block;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="d1"></div>
+    <div class="d2"></div>
+    <div class="d3"></div>
+<br>
+    <div id="h00ver">
+        <p>Passe o Mouse aqui</p>
+        <img src="pexels-pixabay-209717.jpg" alt="">
+    </div>
+    
+</body>
+</html>
