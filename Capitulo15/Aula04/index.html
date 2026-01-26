@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div{
+            width: 350px;
+            height: 200px;
+
+            margin: auto;
+            margin-top: 20px;
+
+            align-items: center;
+
+            border-radius: 5px;
+            background-color: rgba(137, 43, 226, 0.459);
+        }
+        h1{
+            padding: 5px;
+            text-align: center;
+        }
+        ul > li{
+            list-style: none;
+            align-items: center;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        a:visited{
+            color: brown;
+        }
+        a:hover {
+            color: blue;
+            text-decoration: underline;
+        }
+        a:active {
+            color: blueviolet;
+        }
+        a::after {
+            content: ' [Link]';
+            color: rgba(0, 0, 0, 0.507);
+            text-decoration: none;
+
+        }
+        footer{
+            width: 100vw;
+            height: 200px;
+            
+            position: absolute;
+            top: 100%;
+            background-color: rgb(167, 194, 218);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Personalizando Links</h1>
+        <ul>
+            <li><a target="_blank" href="https://github.com/DevNataliaDuarte">Repositório GitHub</a></li>
+            <li><a target="_blank" href="https://www.youtube.com/@cursoemvideo">Canal no Youtube</a></li>
+            <li><a target="_blank" href="https://www.cursoemvideo.com">Site do Curso em Vídeo</a></li>
+        </ul>
+    </div>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
